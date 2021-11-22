@@ -11,6 +11,14 @@ public class MyClass {
       
       System.out.println(string + easier);
       System.out.println(x);
+        
+      int x;
+      x = 5;//initialization
+      x = 10;//variables can be changed
+      
+      final int Y = 5; //<-to store a constant/unchangeable value
+      //Y = 10; <- will cause an error due to "final"
+      final double PI = 3.14159; //used double due to decimal points 
     }
 }
 
@@ -27,3 +35,14 @@ public class MyClass {
 //expression - evaluates value
 //operator - work/combine on operands to produce a value( + - * / )
 //operand - thing operator works on
+
+/*  Wrong variable sample
+    if(){
+        int x;    
+    }
+    x = 5; <- x is not defined
+*/
+
+//variable creation
+//1. Declare
+//2. Initialize
