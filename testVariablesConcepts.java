@@ -19,6 +19,16 @@ public class MyClass {
       final int Y = 5; //<-to store a constant/unchangeable value
       //Y = 10; <- will cause an error due to "final"
       final double PI = 3.14159; //used double due to decimal points 
+        
+      boolean isPizzaDelicious = true; //true false
+      byte b = 127; // 101010 small data type either number or character
+      char c = '2'; //allows to store unicode
+      short s = 32767; //chat but with small numbers
+      int i = 4;
+      long l = 5050505L;//same with int but twice the size of int
+        
+      float f = 20.5f;//float not exact number, smaller container than double
+      double d = 20.5;//exact number 
     }
 }
 
