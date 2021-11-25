@@ -8,7 +8,7 @@ public class Reverse {
       for(int i = 0; i < x; i++){
           y[i] = input.nextInt();
       }
-      for(int j = x-1; j >= 0; j--){
+      for(int j = y.length-1; j >= 0; j--){
             System.out.println(y[j]);
       }
     }
